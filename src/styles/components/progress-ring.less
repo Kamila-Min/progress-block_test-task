@@ -1,0 +1,20 @@
+.progress-ring {
+    width: 50%;
+    height: 50%;
+
+    &__background {
+        fill: none;
+        stroke: #e0e0e0;
+        stroke-width: 7;
+    }
+
+    &__fill {
+        fill: none;
+        stroke-width: 7;
+        stroke-linecap: butt;
+        transform: rotate(-90deg);
+        transform-origin: center;
+        stroke: @blue;
+        transition: stroke-dashoffset 0.3s ease;
+    }
+}
