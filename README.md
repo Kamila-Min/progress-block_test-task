@@ -10,6 +10,7 @@ First, you need to pre-install [Node.js](https://nodejs.org/en/download) or chec
 ```
 node -v
 ```
+We don't have to install the Webpack packages because we have webpack.config.js in project.
 
 After that write this:
 ```
@@ -30,4 +31,4 @@ npm run build
 ```
 npm start
 ```
-Webpack will will collect all files into output files and put this in the new directory - dist, and the app will start on the localhost.
+Webpack will collect all files into output files and put this in the new directory - dist, and the app will start on the localhost.
