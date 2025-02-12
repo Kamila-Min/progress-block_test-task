@@ -12,11 +12,6 @@ node -v
 ```
 We don't have to install the Webpack packages because we have webpack.config.js in project.
 
-After that write this:
-```
-npm init
-```
-This command will create the basic package.json file.
 
 The following command will help you install the required packages:
 ```
@@ -24,7 +19,8 @@ npm install
 ```
 Now you can see in your root the directory with modals - node_modules.
 
-Build and run the project:
+
+Finally, build and run the project:
 ```
 npm run build
 ```
