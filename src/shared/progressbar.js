@@ -21,6 +21,11 @@ class ProgressBar {
 
 init() {
     this.progressInput.addEventListener("input", (event) => {
+        this.progressInput.value = this.progressInput.value.replace(/\D/, "");
+        if (this.progressInput.value > 100) {
+            this.progressInput.value = this.progressInput.value.replace("");
+        }
+
         this.updateProgress(event.target.value);
     });
     
